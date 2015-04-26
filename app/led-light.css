@@ -1,31 +1,34 @@
 
-.light-container {}
-
-.light-label-container, .light-color-container, .light-brightness-container {
-    float: left;
+.light-container {
+   height: 30;
+   position: relative;
 }
 
-.light-color-container{
-  padding-left: 15px;
+.light-label-container {
+   width: 20%;
 }
 
-.light-label-container{
-  width: 20%;
-  margin-right: 5px;
-}
-
-.light-brightness-container .ui-slider {
-  margin-top: 3px;
-}
-
-.light-brightness-container {
-  width: 40%;
-  height: 30px;
-  margin-left: 5px;
+.light-color-container {
+   position: absolute;
+   right: 110px;
+   margin-top: -5px;
+   top: 0px;
 }
 
 .light-power-container {
-  /*margin-right: 20%;*/
-  /*margin-top: -20px;*/
+   position: absolute;
+   margin-top: -5px;
+   right: 0;
+   top: 0px;
 }
+
+.light-brightness-container {
+   width: 300px;
+   margin-right: -15px;
+   position: absolute;
+   right: 0;
+   bottom: ;
+}
+
+
 

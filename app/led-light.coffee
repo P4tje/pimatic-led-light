@@ -29,7 +29,7 @@ $(document).on 'templateinit', (event) ->
       @colorPicker.spectrum
         preferredFormat: 'hex'
         showButtons: false
-        allowEmpty: true
+        allowEmpty: false
         move: (color) =>
           return @colorPicker.val(null).change() unless color
           @colorPicker.val("##{color.toHex()}").change()
